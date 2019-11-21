@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/txtDeptINFO"
+            android:icon="@drawable/departmentinfo"
+            android:onClick="rescentapp"
+            android:title="@string/deptinfo" />
+        <item
+            android:id="@+id/txtPrevApp"
+            android:icon="@drawable/previousappointment"
+            android:title="@string/prevapp" />
+        <item
+            android:id="@+id/txtGetintouch"
+            android:icon="@drawable/getintouch"
+            android:title="@string/getintouch" />
+        <item
+            android:id="@+id/txtwhoweare"
+            android:icon="@drawable/whoweare"
+            android:title="@string/whoweare" />
+        <item
+            android:id="@+id/txtpersonalprofile"
+            android:onClick="gotoProfile"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="@string/personalprofile"/>
+    </group>
+
+    <item android:title="Communicate"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:onClick="share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+
+</menu>

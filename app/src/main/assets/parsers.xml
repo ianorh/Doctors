@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<records>
+    <Patient id="1">
+        <Name>Name: Orena Ian</Name>
+        <Disease>Malaria</Disease>
+       // <manufacturer></manufacturer>
+
+    </Patient>
+    <Patient id="2">
+        <Name>Nakato Lynnet</Name>
+        <disease>Ebola</disease>
+
+
+    </Patient>
+    <Patient id="3">
+        <Name>Bwamiki Isaac</Name>
+        <Disease>Epilepsy</Disease>
+
+    </Patient>
+</records>

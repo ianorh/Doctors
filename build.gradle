@@ -1,0 +1,32 @@
+{
+  "name": "Ana",
+  "intents": [
+    {
+      "intent": "coverage",
+      "examples": [
+        {
+          "text": "How much coverage do I have for"
+        },
+        {
+          "text" "How much"
+        },
+        {
+          "text": "Coverage"
+        },
+        {
+          "text": "I want to get glasses"
+        },
+        {
+          "text": "How much does my plan cover"
+        },
+        {
+          "text": "I want to get contacts"
+        },
+        {
+          "text": "I need new glasses"
+        },
+        {
+          "text": "I need new"
+        },
+        {
+      
